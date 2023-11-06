@@ -20,6 +20,8 @@
 
         <link href="assets/css/stylesCatalogo.css" rel="stylesheet" />
         <link href="assets/css/stylesAnimacion.css" rel="stylesheet" />
+        <link href="assets/css/stylesVideo.css" rel="stylesheet" />
+
 
 
     </head>
@@ -28,8 +30,8 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <img src="assets/Imagenes/logo.png" alt="">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-gradient d-inline">INTERACTIC</span></a>
+                    <img src="assets/Imagenes/interacticRecurso 802.png" alt="">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-gradient d-inline"></span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 medium fw-bolder">
@@ -62,10 +64,9 @@
                                 <div class="profile bg-gradient-primary-to-secondary">
                                     <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
                                     <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                                    <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-                                        <img class=" img-fluid animated" src="assets/Imagenes/robot.png" alt="..." />
-                                    </div>
                                     
+                                        <img class="profile-img" src="assets/Imagenes/robot.png" alt="..." />
+                                   
                                     <div class="dots-1">
                                         <!-- SVG Dots-->
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
@@ -184,15 +185,53 @@
                     </div>
                 </div>
             </header>
-          
+
+            <header class="bg-dark py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2">InteraTIC 2023</h1>
+                                <p class="lead fw-normal text-white-50 mb-4">Tiene como objetivo promover la innovación y creatividad a través de los entornos de vanguardia tecnológicos; mediante conferencias magistrales, talleres, charlas y paneles.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                            <video class="img-fluid rounded-3 my-5" src="assets/Imagenes/intro_inteligencia_1.mp4" type="video/mp4" controls autoplay></video>
+                        </div>
+                    </div>
+                </div>
+            </header>
+          <br>
+          <br>
+          <br>
             <div class="container marketing">
+                <h1 class="subtitle-speaker">Conoce a algunos de nuestros invitados</h1> 
 
               <!-- Three columns of text below the carousel -->
               <div class="row">
                 <div class="col-lg-4">
                   <img class="bd-placeholder-img rounded-circle"  src="assets/Imagenes/persona1.jpg" alt="">                      
-                  <h2 class="fw-normal">Heading</h2>
-                  <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                  <h2 class="fw-normal">Lic. Isaac Avila Ahumada    </h2>
+                  <p>WHO | Innovación y nuevas tecnologías,herramientas para la competitividad</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <img class="bd-placeholder-img rounded-circle"  src="assets/Imagenes/persona2.jpg" alt="">                      
+                  <h2 class="fw-normal">Ing. José Alejandro Cortés Arreygue</h2>
+                  <p>Laboratorios PISA | Tendencias tecnológicas enla Industria farmacéutica</p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <img class="bd-placeholder-img rounded-circle"  src="assets/Imagenes/persona3.jpg" alt="">                      
+                  <h2 class="fw-normal">Mtra. Sandra Estefanía Martínez García</h2>
+                  <p>BOSCH | Taller: AI A practical introduction</p>
+                </div><!-- /.col-lg-4 -->
+              </div><!-- /.row -->
+
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="bd-placeholder-img rounded-circle"  src="assets/Imagenes/persona1.jpg" alt="">                      
+                  <h2 class="fw-normal">Ing. Rodrigo López Aréchiga</h2>
+                  <p>Amber Studio | Aprendizajes en el emprendimiento</p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                   <img class="bd-placeholder-img rounded-circle"  src="assets/Imagenes/persona2.jpg" alt="">                      
@@ -205,9 +244,8 @@
                   <p>And lastly this, the third column of representative placeholder content.</p>
                 </div><!-- /.col-lg-4 -->
               </div><!-- /.row -->
-          
-          <br>
-          <br>
+                <br>
+                <br>
               <!-- START THE FEATURETTES -->
           
               <hr class="featurette-divider">
@@ -567,6 +605,7 @@
         <!-- Core theme JS-->
         <script src="/assets/js/scripts.js"></script>
         <script src="/assets/js/scriptsCatalogo.js"></script>
+        <script src="/assets/js/mainAnimacion.js"></script>
 
     </body>
 </html>
